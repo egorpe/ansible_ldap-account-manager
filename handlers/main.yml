@@ -1,0 +1,4 @@
+---
+# handlers file for ldap_account_manager
+- name: restart httpd
+  service: name=httpd state=restarted enabled=yes
